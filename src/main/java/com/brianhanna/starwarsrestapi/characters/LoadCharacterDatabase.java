@@ -5,7 +5,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
-public class LoadDatabase implements CommandLineRunner {
+public class LoadCharacterDatabase implements CommandLineRunner {
 
 	@Autowired
 	CharacterRepository characterRepository;
