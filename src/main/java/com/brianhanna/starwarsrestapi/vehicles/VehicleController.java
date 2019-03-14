@@ -15,7 +15,7 @@ public class VehicleController {
 	private VehicleRepository vehicleRepository;
 	
 	@RequestMapping("/vehicles")
-	public List<Vehicle> getVehicles() {
+	public Iterable<Vehicle> getVehicles() {
 		return vehicleRepository.findAll();
 	}
 	

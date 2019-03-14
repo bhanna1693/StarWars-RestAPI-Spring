@@ -15,7 +15,7 @@ public class CharacterController {
 	private CharacterRepository characterRepository;
 	
 	@RequestMapping("/characters")
-	public List<Character> getCharacters() {
+	public Iterable<Character> getCharacters() {
 		return characterRepository.findAll();
 	}
 	
